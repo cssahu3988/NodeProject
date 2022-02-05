@@ -9,4 +9,4 @@ app.listen(3000, ()=>{
 
 app.use(express.json());
 
-app.use('/employee', employeeController);
+app.use('/employees', employeeController);
