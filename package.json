@@ -1,9 +1,12 @@
 {
   "name": "nodeproject",
   "version": "1.0.0",
-  "private":true,
+  "private":false,
   "description": "api for node project",
   "main": "app.js",
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
     "start": "node app.js"
   },
