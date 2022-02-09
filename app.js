@@ -9,4 +9,8 @@ app.listen(3000, ()=>{
 
 app.use(express.json());
 
+app.get('/', (req, res)=>{
+    res.send("Welcome to the serve")
+})
+
 app.use('/employees', employeeController);
