@@ -1,11 +1,10 @@
 {
   "name": "nodeproject",
   "version": "1.0.0",
-  "private":false,
   "description": "api for node project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
