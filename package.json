@@ -4,9 +4,6 @@
   "private":false,
   "description": "api for node project",
   "main": "app.js",
-  "engines": { 
-    "node" : ">=10 <11"
-  },
   "scripts": {
     "start": "node app.js"
   },
