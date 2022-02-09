@@ -1,6 +1,7 @@
 {
   "name": "nodeproject",
   "version": "1.0.0",
+  "private":true,
   "description": "api for node project",
   "main": "app.js",
   "scripts": {
