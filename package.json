@@ -5,7 +5,7 @@
   "description": "api for node project",
   "main": "app.js",
   "engines": {
-    "node": "16.13.2"
+    "node": "^7.10.0"
   },
   "scripts": {
     "start": "node app.js"
