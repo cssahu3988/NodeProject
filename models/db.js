@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+require("dotenv/config");
 
-mongoose.connect('mongodb://localhost:27017/Employees',{useNewUrlParser:true},(err)=>{
+mongoose.connect(process.env.DBConnections,{useNewUrlParser:true},(err)=>{
     if(!err){console.log("DB successfully created . ")}
     else{console.log("DB error "+err)}
 });
